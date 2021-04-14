@@ -25,6 +25,6 @@ jobs:
           passphrase: ${{ secrets.SSH_PASS}}
           
           script: |
-            cd test
+            cd test/CSE135HW1
             git pull origin main
             echo 'Deployment successful to digital ocean'
